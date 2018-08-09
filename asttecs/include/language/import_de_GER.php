@@ -1,0 +1,30 @@
+<?php
+	$please_select_file = "Exel-CSV Datei auswählen";
+	$upload = "Importieren";
+	$file_manager = "Datei Manager";
+	$add = "Hinzufügen";
+	$no_file_choosen = "Es wurde keine Datei ausgewählt";
+	$todiallist = "zur Anrufliste hinzufügen";
+	$file = "Datei";
+	$uploadsuccess = "Exel-CSV Datei wurde erfolgreich importiert";
+	$have = "haben";
+	$default = "Abfrage ,zeige 8 Abfragen";
+	$failed = "Der Import der Exel-CSV Datei ist fehlgeschlagen";
+	$choose = "Datei auswählen";
+	$import = "importieren";
+	$area = "zuweisen";
+	$cantup = "Import von Exel-CSV Datei";
+	$success = "Erfolgreich";
+	$field_overflow	   = "Feld ist voll";
+	$field_must_digits = "Feld darf nicht leer sein ";
+	$field_cant_repeat = "Nummer wiederholen";
+	$error = "fehlgeschlagen";
+	$recrod = " Rekords";
+	$assign_automaticly = "Telefonnummer würde allen asterCRM-Konten automatisch zugeordnet werden ";
+	$by = "Import mit Accountdaten";
+	$uploading = "Laden..., bitte warten";
+	$data_importing = "Daten importieren……";
+	$submit = "Übertragen";
+	$selecttable = "Tabelle auswählen";
+	$records_inserted = 'Records erfolgreich hinzugefügt';
+?>

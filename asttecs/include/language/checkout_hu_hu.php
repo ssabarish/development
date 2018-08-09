@@ -1,0 +1,34 @@
+<?php
+$amount = "teljes haszon";
+$callshop = "callshop";
+$callshop_cost = "callshop költégek";
+$reseller_cost = "viszonteladói kiadások";
+$limit_type = "limit típus";
+$no_limit = "nincs limit";
+$calldate = "idöpont";
+$clid = "kabin";
+$dst = "cél";
+$duration = "hossz";
+$disposition = "státusz";
+$billsec = "felszámított másodpercek";
+$destination = "ország";
+$rate = "tarifa";
+$price = "költségek";
+$status = "felszámítási státusz";
+$all = "minden";
+$none = "semmi";
+$list_detail = "adatlista";
+$list = "feszámítás";
+$cal = "naptár";
+$callback = "visszahívás";
+$from = "tól";
+$to = "ig";
+$markup = "nyereség";
+$calls = "hívások";
+$sum_by_year = "éves összegek";
+$sum_by_month = "havi összegek";
+$sum_by_day = "napi összegek";
+$sum_by_hour = "órai összegek";
+$sum_by_destination = "országok összegei";
+$year = "év";
+?>

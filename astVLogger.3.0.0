@@ -1,0 +1,11 @@
+mysqladmin create voicelogger
+echo "database Created"
+
+mysql voicelogger < /var/www/html/astVlogger/voicelogger.sql
+echo "updated database"
+
+mkdir /var/spool/asterisk/monitor/movedvoicefiles
+echo "Folder Created"
+
+php /var/www/html/astVlogger/voicefilescopy.php
+echo "file copy script"
