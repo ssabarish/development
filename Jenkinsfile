@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('clone') {
       steps {
         sh '''cd /home/s/new/
 rm -rf development
