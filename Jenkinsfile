@@ -11,7 +11,7 @@ git pull
 '''
           }
         }
-        stage('error') {
+        stage('build image') {
           steps {
             sh '''cd /home/s/giri
 cp Dockerfile customer_web/.
