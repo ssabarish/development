@@ -18,6 +18,11 @@ cp Dockerfile customer_web/.
 docker build -t giri/app-$(date +%Y-%m-%d) customer_web/.'''
           }
         }
+        stage('run container') {
+          steps {
+            sh 'docker run -p 8181:8080 -d giri/app-$(date +%Y-%m-%d)'
+          }
+        }
       }
     }
   }
