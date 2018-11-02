@@ -14,6 +14,8 @@ git pull'''
           steps {
             sh '''cd /home/s/giri
 cp Dockerfile customer_web/.
+docker stop $(docker ps -q --filter ancestor=giri/app-$(date +%Y-%m-%d))
+docker rmi -f giri/app-$(date +%Y-%m-%d)
 docker build -t giri/app-$(date +%Y-%m-%d) customer_web/.
 docker run -p 8181:8080 -d giri/app-$(date +%Y-%m-%d)
 '''
