@@ -15,7 +15,7 @@ git pull
           steps {
             sh '''cd /home/s/giri
 cp Dockerfile customer_web/.
-docker build -t giri/app-`date +"%Y-%m-%d %T"` customer_web/.'''
+docker build -t giri/app-$(date +%Y-%m-%d) customer_web/.'''
           }
         }
       }
