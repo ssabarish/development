@@ -7,10 +7,11 @@ pipeline {
           steps {
             sh '''cd /home/s/new/node-docker-demo
 git checkout start-here
+git pull
 '''
           }
         }
-        stage('') {
+        stage('error') {
           steps {
             sh '''cd /home/s/new/node-docker-demo
 docker run --rm -v $(pwd):/app -w /app node:9 node hello.js
