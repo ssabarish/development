@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('clone') {
+    stage('run') {
       parallel {
         stage('run container') {
           steps {
