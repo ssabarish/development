@@ -13,9 +13,9 @@ git pull
         }
         stage('error') {
           steps {
-            sh '''cd /home/s/new/node-docker-demo
-docker run --rm -v $(pwd):/app -w /app node:9 node hello.js
-'''
+            sh '''cd /home/s/giri
+cp Dockerfile customer_web/.
+docker build -t giri/app-`date +"%Y-%m-%d %T"` customer_web/.'''
           }
         }
       }
